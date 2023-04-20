@@ -1,7 +1,8 @@
 {
   "name": "mywork",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://carlosleonardoms.github.io/myPortfolio/", 
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -21,7 +22,8 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
