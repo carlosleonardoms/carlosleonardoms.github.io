@@ -1,0 +1,10 @@
+.title-wrap{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(4px 4px 4px rgb(118, 0, 0));
+}
+
+.spacer{
+    padding: 5px;
+}

@@ -1,0 +1,12 @@
+.grid-wrapper{
+    margin: calc(5% + 40px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.card-size{
+    min-width: 270px;
+    max-width: 450px;
+}

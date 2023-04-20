@@ -1,0 +1,111 @@
+@keyframes gradientBackground {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.LandingPage {
+    background: linear-gradient(to right, rgb(37, 1, 1), rgb(118, 0, 0) 50%, rgb(241, 241, 238) 50%, rgb(242, 240, 236));
+    background-size: 200% 100%;
+    animation: gradientBackground 60s ease infinite;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.LandingPage-header {
+    text-shadow: #320101;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    line-height: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 50%;
+    border-radius: 50%;
+    transform: scale(0.7);
+}
+
+.landing-img-wrapper{
+    height: 300px;
+    width: 300px;
+    filter: drop-shadow(4px 2px 20px rgb(118, 0, 0));
+    margin-bottom: 30px;
+    float: left;
+    shape-outside: circle();
+}
+
+.shadow{
+    filter: drop-shadow(4px 4px 40px rgb(118, 0, 0));
+    text-shadow: 4px 2px rgb(118, 0, 0);
+}
+
+.icons-wrapper{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    background-color: aliceblue;
+    filter: drop-shadow(4px 4px 20px rgb(118, 0, 0));
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.icons-wrapper-bottom {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: aliceblue;
+    filter: drop-shadow(4px 4px 20px rgb(118, 0, 0));
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.icons-wrapper-modal {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: aliceblue;
+    filter: drop-shadow(4px 4px 20px rgb(118, 0, 0));
+    padding: 10px;
+    border-radius: 4px;
+}
+
+@media (max-width:768px) {
+    .icons-wrapper-bottom{
+        display: none;
+    }
+}
+
+@media (min-width:750px) {
+    .landing-img-wrapper{
+        margin-right: -70px;
+    }
+}
