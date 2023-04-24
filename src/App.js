@@ -9,7 +9,7 @@ import PortfolioPage from './pages/Portfolio'
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<LandingPage/>}/>
+      <Route exact path="/" element={<LandingPage/>}/>
       <Route path="/Portfolio" element={<PortfolioPage/>}/>
       <Route path="/About" element={<About/>}/>
     </Routes>
