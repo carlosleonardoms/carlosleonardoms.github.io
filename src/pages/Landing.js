@@ -12,7 +12,7 @@ function LandingPage() {
           
           <h2 className="shadow">
             <div className="landing-img-wrapper">
-            <img className="img" src={process.env.PUBLIC_URL + "/landing.jpg"} alt="profile pic"/>
+            <img className="img" src={"/landing.jpg"} alt="profile pic"/>
           </div>
             CARLOS MAIOR.    
           </h2>
