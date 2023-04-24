@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://carlosleonardoms.github.io/myPortfolio/static/css/main.d0985fdb.css",
-    "main.js": "https://carlosleonardoms.github.io/myPortfolio/static/js/main.eb7be297.js",
+    "main.js": "https://carlosleonardoms.github.io/myPortfolio/static/js/main.fd12a7e5.js",
     "static/js/787.7388b693.chunk.js": "https://carlosleonardoms.github.io/myPortfolio/static/js/787.7388b693.chunk.js",
     "index.html": "https://carlosleonardoms.github.io/myPortfolio/index.html",
     "main.d0985fdb.css.map": "https://carlosleonardoms.github.io/myPortfolio/static/css/main.d0985fdb.css.map",
-    "main.eb7be297.js.map": "https://carlosleonardoms.github.io/myPortfolio/static/js/main.eb7be297.js.map",
+    "main.fd12a7e5.js.map": "https://carlosleonardoms.github.io/myPortfolio/static/js/main.fd12a7e5.js.map",
     "787.7388b693.chunk.js.map": "https://carlosleonardoms.github.io/myPortfolio/static/js/787.7388b693.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0985fdb.css",
-    "static/js/main.eb7be297.js"
+    "static/js/main.fd12a7e5.js"
   ]
 }
