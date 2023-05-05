@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://carlosleonardoms.github.io/MyPortfolio/static/css/main.d0985fdb.css",
-    "main.js": "https://carlosleonardoms.github.io/MyPortfolio/static/js/main.3231bcc7.js",
-    "static/js/787.7388b693.chunk.js": "https://carlosleonardoms.github.io/MyPortfolio/static/js/787.7388b693.chunk.js",
-    "index.html": "https://carlosleonardoms.github.io/MyPortfolio/index.html",
-    "main.d0985fdb.css.map": "https://carlosleonardoms.github.io/MyPortfolio/static/css/main.d0985fdb.css.map",
-    "main.3231bcc7.js.map": "https://carlosleonardoms.github.io/MyPortfolio/static/js/main.3231bcc7.js.map",
-    "787.7388b693.chunk.js.map": "https://carlosleonardoms.github.io/MyPortfolio/static/js/787.7388b693.chunk.js.map"
+    "main.css": "https://carlosleonardoms.github.io/myPortfolio/static/css/main.d0985fdb.css",
+    "main.js": "https://carlosleonardoms.github.io/myPortfolio/static/js/main.0dcc5422.js",
+    "static/js/787.7388b693.chunk.js": "https://carlosleonardoms.github.io/myPortfolio/static/js/787.7388b693.chunk.js",
+    "index.html": "https://carlosleonardoms.github.io/myPortfolio/index.html",
+    "main.d0985fdb.css.map": "https://carlosleonardoms.github.io/myPortfolio/static/css/main.d0985fdb.css.map",
+    "main.0dcc5422.js.map": "https://carlosleonardoms.github.io/myPortfolio/static/js/main.0dcc5422.js.map",
+    "787.7388b693.chunk.js.map": "https://carlosleonardoms.github.io/myPortfolio/static/js/787.7388b693.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0985fdb.css",
-    "static/js/main.3231bcc7.js"
+    "static/js/main.0dcc5422.js"
   ]
 }
