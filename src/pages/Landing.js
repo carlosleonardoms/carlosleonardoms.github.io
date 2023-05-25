@@ -3,6 +3,7 @@ import './Landing.css';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faHandPointer } from '@fortawesome/free-solid-svg-icons';
 
 function LandingPage() {
   return (
@@ -12,12 +13,14 @@ function LandingPage() {
           
           <h2 className="shadow">
             <div className="landing-img-wrapper">
-            <img className="img" src={"/landing.jpg"} alt="profile pic"/>
-          </div>
+              <img className="img" src={"/landing.jpg"} alt="profile pic"/>
+              <div className="flag shadow">
+                <FontAwesomeIcon icon={faHandPointer} />
+              </div>  
+            </div>
             CARLOS MAIOR.    
           </h2>
           <h3 className="shadow">Web Developer</h3>
-          
         </Link>
         <div className="icons-wrapper">
           <a href="https://github.com/carlosleonardoms" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} size="1x" color="rgb(118, 0, 0)" /></a>

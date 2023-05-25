@@ -54,6 +54,13 @@ a {
     shape-outside: circle();
 }
 
+.flag{
+    position: absolute;
+    bottom: 40px;
+    right: 25px;
+    transform: rotate(320deg);
+}
+
 .shadow{
     filter: drop-shadow(4px 4px 40px rgb(118, 0, 0));
     text-shadow: 4px 2px rgb(118, 0, 0);
